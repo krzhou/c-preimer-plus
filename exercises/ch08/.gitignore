@@ -1,0 +1,11 @@
+# executables
+ch08q01-count_char
+ch08q02-echo_char_and_ascii
+print_ascii_128
+print_ascii_256
+ch08q03-count_uppercase_and_lowercase
+ch08q04-average_word_letter_count
+ch08q05-binary_guess
+ch08q06-get_first_non_whitespace
+ch08q07-payroll
+ch08q08-calculator
