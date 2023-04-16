@@ -6,7 +6,8 @@ LFLAGS =
 LDFLAGS =
 
 # Executables to build.
-EXECUTABLES = ch09q01-min_double
+EXECUTABLES = ch09q01-min_double \
+              ch09q02-chline
 
 # Default target.
 all: $(EXECUTABLES)
@@ -18,6 +19,9 @@ clean:
 
 # Linker step.
 ch09q01-min_double: ch09q01-min_double.o
+	$(CC) $(CFLAGS) -o $@ $^
+
+ch09q02-chline: ch09q02-chline.o
 	$(CC) $(CFLAGS) -o $@ $^
 
 # Compile .o using the corresponding .c.
